@@ -1,4 +1,4 @@
-import { Container } from "./home";
+import { Container } from "./components/home";
 
 export default function App() {
   return (
