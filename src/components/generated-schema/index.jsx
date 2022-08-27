@@ -1,12 +1,14 @@
+import { useState } from "react";
+
 import { TextArea } from "../text-area/";
 
-export const GeneratedSchema = ({ incomingCode }) => {
+export const GeneratedSchema = ({ generatedSchema }) => {
   return (
     <>
       <span>Result:</span>
 
       <TextArea
-        codeSnippet={incomingCode}
+        codeSnippet={generatedSchema}
         customStyle="w-full rounded-lg bg-gray-400"
       />
     </>
