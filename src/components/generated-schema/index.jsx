@@ -1,12 +1,12 @@
 import { TextArea } from "../text-area/";
 
-export const GeneratedSchema = () => {
+export const GeneratedSchema = ({ incomingCode }) => {
   return (
     <>
       <span>Result:</span>
 
       <TextArea
-        codeSnippet="right"
+        codeSnippet={incomingCode}
         customStyle="w-full rounded-lg bg-gray-400"
       />
     </>

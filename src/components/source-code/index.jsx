@@ -1,12 +1,12 @@
 import { TextArea } from "../text-area/";
 
-export const SourceCode = () => {
+export const SourceCode = ({ handleChange }) => {
   return (
     <>
       <span>Source code:</span>
       <TextArea
-        codeSnippet="left"
         customStyle="w-full rounded-lg bg-gray-200"
+        handleChange={handleChange}
       />
     </>
   );
