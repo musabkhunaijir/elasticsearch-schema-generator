@@ -6,7 +6,7 @@ export const Container = () => {
   const [sourceText, setSourceText] = useState("");
   const [generatedSchema, setGeneratedSchema] = useState("");
 
-  const setSourceCode = (e) => {
+  const setSourceCode = () => {
     setGeneratedSchema(`${sourceText} + some code`);
   };
 
@@ -27,7 +27,7 @@ export const Container = () => {
       <div className="flex justify-center">
         <button
           className="bg-blue-400 rounded-md h-17 w-20 text-center"
-          onClick={(e) => setSourceCode(e)}
+          onClick={() => setSourceCode()}
         >
           convert
         </button>
