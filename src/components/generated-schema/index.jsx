@@ -9,7 +9,7 @@ export const GeneratedSchema = ({ generatedSchema }) => {
 
       <TextArea
         codeSnippet={generatedSchema}
-        customStyle="w-full rounded-lg bg-gray-400"
+        customStyle="w-full rounded-lg bg-gray-400 p-4"
       />
     </>
   );

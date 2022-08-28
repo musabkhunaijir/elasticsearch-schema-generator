@@ -6,7 +6,7 @@ export const SourceCode = ({ handleChange }) => {
       <span>Source code:</span>
 
       <TextArea
-        customStyle="w-full rounded-lg bg-gray-200"
+        customStyle="w-full rounded-lg bg-gray-200 p-4"
         handleChange={handleChange}
       />
     </>
